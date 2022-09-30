@@ -1,0 +1,14 @@
+import 'dart:io';
+void main() {
+  String name;
+  print("Enter your name: ");
+  name = stdin.readLineSync()!;
+  
+  int age;
+  print("Enter your age in years: ");
+  age = int.parse(stdin.readLineSync()!);
+  
+  int age_cal = 100 - age;
+  print("You have $age_cal years left to be 100 years old!!");
+
+}
